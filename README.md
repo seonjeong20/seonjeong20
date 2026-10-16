@@ -1,82 +1,28 @@
-<div align="center">
+<p align="center">
+  <img src="./profile-header.svg" width="100%" alt="조선정 소개 — 사용하기 편한 화면과 자연스러운 흐름을 고민합니다." />
+</p>
 
 <br />
 
-### ✦ SEONJEONG'S GITHUB ✦
+## 01 / Tech Stack
 
-# 안녕하세요, 조선정입니다 👋
+프로젝트에서 사용하고 경험한 기술들입니다.
 
-**아이디어를 사용자가 경험할 수 있는 서비스로 만듭니다.**
-
-웹 서비스와 AI 기능을 개발하며,<br />
-새로운 기술을 배우고 적용한 과정을 기록합니다.
-
-<br />
-
-<img src="https://img.shields.io/badge/Web_Development-EDE9FE?style=for-the-badge&logoColor=7C3AED" alt="Web Development" />
-<img src="https://img.shields.io/badge/AI_Applications-E0E7FF?style=for-the-badge&logoColor=6366F1" alt="AI Applications" />
-<img src="https://img.shields.io/badge/Data_Analysis-DBEAFE?style=for-the-badge&logoColor=2563EB" alt="Data Analysis" />
-
-<br /><br />
-
----
-
-### 🧩 Tech Stack
-
-프로젝트에서 사용해 온 기술들입니다.
-
-<table>
-<tr>
-<th align="center">Backend</th>
-<td>
-<img src="https://img.shields.io/badge/Java-007396?style=flat-square" alt="Java" />
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-</td>
-</tr>
-<tr>
-<th align="center">Frontend</th>
-<td>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue.js" />
-</td>
-</tr>
-<tr>
-<th align="center">Data & AI</th>
-<td>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-<img src="https://img.shields.io/badge/Spring_AI-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring AI" />
-</td>
-</tr>
-<tr>
-<th align="center">Game & Tools</th>
-<td>
-<img src="https://img.shields.io/badge/Unity-222324?style=flat-square&logo=unity&logoColor=white" alt="Unity" />
-<img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square" alt="C#" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-</td>
-</tr>
-</table>
+| | Technologies |
+| :--- | :--- |
+| **Frontend** | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vue](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D) |
+| **Backend** | ![Java](https://img.shields.io/badge/Java-007396?style=flat-square) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) |
+| **Data & AI** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=flat-square&logo=spring&logoColor=white) |
+| **Game & Tools** | ![Unity](https://img.shields.io/badge/Unity-222324?style=flat-square&logo=unity&logoColor=white) ![C Sharp](https://img.shields.io/badge/C%23-512BD4?style=flat-square) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
 
 <br />
 
-### 🌱 GitHub Activity
+## 02 / GitHub Activity
 
-<img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=seonjeong20&theme=tokyonight" alt="GitHub contribution history" />
-
-<br /><br />
-
-<img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=seonjeong20&theme=tokyonight" alt="Languages by commit" />
-<img width="46%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=seonjeong20&theme=tokyonight&utcOffset=9" alt="Commits by time of day in KST" />
-
-<br /><br />
-
-<sub>배우고, 만들고, 기록하며 조금씩 나아갑니다.</sub>
-
-<br /><br />
-
-</div>
+<p align="center">
+  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=seonjeong20&theme=default&bg_color=FAFAFD&title_color=7C3AED&text_color=5E5A70&chart_color=A78BFA&border_color=DDDDE9" alt="GitHub contribution history" />
+</p>
+<p align="center">
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=seonjeong20&theme=default&bg_color=FAFAFD&title_color=7C3AED&text_color=5E5A70&border_color=DDDDE9" alt="Languages by commit" />
+  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=seonjeong20&theme=default&utcOffset=9&bg_color=FAFAFD&title_color=7C3AED&text_color=5E5A70&chart_color=A78BFA&border_color=DDDDE9" alt="Commits by hour in Korea Standard Time" />
+</p>

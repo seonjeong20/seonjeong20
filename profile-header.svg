@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="350" viewBox="0 0 1000 350" fill="none">
+  <rect x="1" y="1" width="998" height="348" rx="18" fill="#FAFAFD" stroke="#DDDDE9" stroke-width="2"/>
+  <path d="M19 1H981C990.941 1 999 9.05887 999 19V57H1V19C1 9.05887 9.05887 1 19 1Z" fill="#F0F0F7"/>
+  <path d="M1 57H999" stroke="#DDDDE9"/>
+  <circle cx="29" cy="29" r="6" fill="#F5A5AC"/>
+  <circle cx="51" cy="29" r="6" fill="#F6D58C"/>
+  <circle cx="73" cy="29" r="6" fill="#A9D5BD"/>
+  <rect x="330" y="16" width="340" height="26" rx="7" fill="white" stroke="#E4E4ED"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+    <text x="500" y="34" text-anchor="middle" fill="#77778E" font-size="12">github.com / seonjeong20</text>
+    <text x="56" y="110" fill="#8B7AC2" font-size="13" font-weight="600" letter-spacing="3">HELLO, WORLD.</text>
+    <text x="53" y="176" fill="#292638" font-size="51" font-weight="750" letter-spacing="-2">I'm Seonjeong<tspan fill="#A78BFA">.</tspan></text>
+    <text x="57" y="218" fill="#5E5A70" font-size="18">사용하기 편한 화면과 자연스러운 흐름을 고민합니다.</text>
+    <text x="57" y="248" fill="#7F7A90" font-size="16">배운 것을 직접 구현하고, 더 나은 경험으로 다듬어 갑니다.</text>
+    <rect x="57" y="281" width="160" height="31" rx="6" fill="#EDE9FE"/>
+    <text x="137" y="301" text-anchor="middle" fill="#7C3AED" font-size="12" font-weight="600">WEB DEVELOPMENT</text>
+    <rect x="227" y="281" width="151" height="31" rx="6" fill="#E0E7FF"/>
+    <text x="302.5" y="301" text-anchor="middle" fill="#6366F1" font-size="12" font-weight="600">AI APPLICATIONS</text>
+    <rect x="388" y="281" width="140" height="31" rx="6" fill="#DBEAFE"/>
+    <text x="458" y="301" text-anchor="middle" fill="#2563EB" font-size="12" font-weight="600">DATA ANALYSIS</text>
+    <text x="843" y="178" fill="#DFDAEE" font-size="67" font-weight="300" text-anchor="middle">&lt;/&gt;</text>
+    <text x="843" y="209" fill="#9C94B1" font-size="12" text-anchor="middle" letter-spacing="1">BUILD. REFINE. REPEAT.</text>
+  </g>
+</svg>
