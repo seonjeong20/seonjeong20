@@ -11,10 +11,10 @@
 
 | | Technologies |
 | :--- | :--- |
-| **Frontend** | ![JavaScript](https://img.shields.io/badge/JavaScript-FCE6EE?style=flat-square&logo=javascript&logoColor=94576D) ![React](https://img.shields.io/badge/React-FCE6EE?style=flat-square&logo=react&logoColor=94576D) ![Vue](https://img.shields.io/badge/Vue.js-FCE6EE?style=flat-square&logo=vuedotjs&logoColor=94576D) |
-| **Backend** | ![Java](https://img.shields.io/badge/Java-FCE6EE?style=flat-square) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-FCE6EE?style=flat-square&logo=springboot&logoColor=94576D) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-FCE6EE?style=flat-square&logo=postgresql&logoColor=94576D) |
-| **Data & AI** | ![Python](https://img.shields.io/badge/Python-FCE6EE?style=flat-square&logo=python&logoColor=94576D) ![pandas](https://img.shields.io/badge/pandas-FCE6EE?style=flat-square&logo=pandas&logoColor=94576D) ![scikit-learn](https://img.shields.io/badge/scikit--learn-FCE6EE?style=flat-square&logo=scikitlearn&logoColor=94576D) ![Spring AI](https://img.shields.io/badge/Spring_AI-FCE6EE?style=flat-square&logo=spring&logoColor=94576D) |
-| **Game & Tools** | ![Unity](https://img.shields.io/badge/Unity-FCE6EE?style=flat-square&logo=unity&logoColor=94576D) ![C Sharp](https://img.shields.io/badge/C%23-FCE6EE?style=flat-square) ![Git](https://img.shields.io/badge/Git-FCE6EE?style=flat-square&logo=git&logoColor=94576D) ![GitHub](https://img.shields.io/badge/GitHub-FCE6EE?style=flat-square&logo=github&logoColor=94576D) |
+| **Frontend** | ![JavaScript](./assets/badges/javascript.svg) ![React](./assets/badges/react.svg) ![Vue](./assets/badges/vue.svg) |
+| **Backend** | ![Java](./assets/badges/java.svg) ![Spring Boot](./assets/badges/spring-boot.svg) ![PostgreSQL](./assets/badges/postgresql.svg) |
+| **Data & AI** | ![Python](./assets/badges/python.svg) ![pandas](./assets/badges/pandas.svg) ![scikit-learn](./assets/badges/scikit-learn.svg) ![Spring AI](./assets/badges/spring-ai.svg) |
+| **Game & Tools** | ![Unity](./assets/badges/unity.svg) ![C Sharp](./assets/badges/c-sharp.svg) ![Git](./assets/badges/git.svg) ![GitHub](./assets/badges/github.svg) |
 
 <br />
 
