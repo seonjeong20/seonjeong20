@@ -12,7 +12,6 @@ QUERY = """
 query {
   user(login: "seonjeong20") {
     login
-    repositories(privacy: PUBLIC, isFork: false) { totalCount }
     contributionsCollection {
       totalCommitContributions
       contributionCalendar {
@@ -35,33 +34,34 @@ def render(data):
     if len(days) < 300 or any(day["contributionCount"] < 0 for day in days):
         raise ValueError("Incomplete contribution calendar; keeping the previous card")
     counts = [day["contributionCount"] for day in days]
-    maximum = max(max(counts), 1)
-    points = " ".join(
-        f"{315 + i * 350 / (len(days) - 1):.2f},{155 - count * 85 / maximum:.2f}"
-        for i, count in enumerate(counts)
-    )
-    labels = [
-        (82, f'{calendar["totalContributions"]:,} Contributions'),
-        (111, f'{collection["totalCommitContributions"]:,} Commits'),
-        (140, f'{user["repositories"]["totalCount"]:,} Public Repos (non-fork)'),
+    active_days = sum(count > 0 for count in counts)
+    stats = [
+        ("CONTRIBUTIONS", calendar["totalContributions"], "commits + PRs + issues + reviews"),
+        ("COMMITS", collection["totalCommitContributions"], "code, one change at a time"),
+        ("ACTIVE DAYS", active_days, "days with a contribution"),
     ]
-    rows = "".join(f'<text x="30" y="{y}" font-size="14">{escape(label)}</text>' for y, label in labels)
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="700" height="200" viewBox="0 0 700 200" role="img" aria-labelledby="title description">
-  <title id="title">seonjeong20 — GitHub Activity</title>
-  <desc id="description">GitHub contribution calendar, {days[0]['date']} to {days[-1]['date']}. Contributions include commits, pull requests, issues and reviews. Public activity only when generated with the workflow token.</desc>
-  <rect x="1" y="1" width="698" height="198" rx="5" fill="#FAFAFD" stroke="#DDDDE9"/>
-  <g font-family="'Segoe UI',Ubuntu,Arial,sans-serif" fill="#5E5A70">
-    <text x="30" y="39" font-size="22" fill="#7C3AED">seonjeong20 — GitHub Activity</text>
-    {rows}
-    <path d="M315 70V155H665" fill="none" stroke="#DDDDE9"/>
-    <polygon points="315,155 {points} 665,155" fill="#EDE9FE"/>
-    <polyline points="{points}" fill="none" stroke="#A78BFA" stroke-width="1.5" stroke-linejoin="round"/>
-    <g font-size="10" fill="#7F7A90">
-      <text x="315" y="173">{days[0]['date']}</text>
-      <text x="665" y="173" text-anchor="end">{days[-1]['date']}</text>
-      <text x="30" y="180">GitHub API · past year</text>
-      <text x="665" y="57" text-anchor="end">Daily contributions · max {maximum}</text>
-    </g>
+    tiles = ""
+    for i, (label, value, caption) in enumerate(stats):
+        x = 26 + i * 318
+        tiles += f'''<g transform="translate({x},76)">
+          <rect width="306" height="126" rx="5" fill="#FFFAFC" stroke="#E6B4C7"/>
+          <text x="20" y="26" font-family="'Courier New',monospace" font-size="12" letter-spacing="1" fill="#A66C83">{label}</text>
+          <text x="20" y="76" font-size="40" font-weight="700" fill="#94576D">{value:,}</text>
+          <text x="20" y="105" font-size="12" fill="#996C7F">{escape(caption)}</text>
+        </g>'''
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="244" viewBox="0 0 1000 244" role="img" aria-labelledby="title description">
+  <title id="title">Seonjeong's activity diary</title>
+  <desc id="description">GitHub contribution summary, {days[0]['date']} to {days[-1]['date']}. {calendar['totalContributions']} contributions, {collection['totalCommitContributions']} commits, {active_days} active days. Public activity when generated with the workflow token.</desc>
+  <defs><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1" fill="#EDC5D3"/></pattern></defs>
+  <rect x="1" y="1" width="998" height="242" rx="8" fill="#FFF5F8" stroke="#DA9DB3"/>
+  <path d="M1 49H999" stroke="#E6B4C7"/>
+  <rect x="2" y="50" width="996" height="192" fill="url(#dots)"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+    <text x="26" y="31" font-family="'Courier New',monospace" font-size="14" fill="#94576D">♡ activity diary</text>
+    <text x="972" y="31" text-anchor="end" font-size="12" fill="#996C7F">small steps, saved here.</text>
+    {tiles}
+    <text x="26" y="226" font-size="11" fill="#94576D">GitHub · public activity · past year</text>
+    <text x="972" y="226" text-anchor="end" font-size="11" fill="#94576D">{days[0]['date']} — {days[-1]['date']}</text>
   </g>
 </svg>
 '''
