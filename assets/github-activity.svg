@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="244" viewBox="0 0 1000 244" role="img" aria-labelledby="title description">
   <title id="title">Seonjeong's activity diary</title>
-  <desc id="description">GitHub contribution summary, 2025-11-23 to 2026-11-27. 166 contributions, 122 commits, 30 active days. Public activity when generated with the workflow token.</desc>
+  <desc id="description">GitHub contribution summary, 2025-11-23 to 2026-11-28. 166 contributions, 122 commits, 30 active days. Public activity when generated with the workflow token.</desc>
   <defs><pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1" fill="#EDC5D3"/></pattern></defs>
   <rect x="1" y="1" width="998" height="242" rx="8" fill="#FFF5F8" stroke="#DA9DB3"/>
   <path d="M1 49H999" stroke="#E6B4C7"/>
@@ -25,6 +25,6 @@
           <text x="20" y="105" font-size="12" fill="#996C7F">days with a contribution</text>
         </g>
     <text x="26" y="226" font-size="11" fill="#94576D">GitHub · public activity · past year</text>
-    <text x="972" y="226" text-anchor="end" font-size="11" fill="#94576D">2025-11-23 — 2026-11-27</text>
+    <text x="972" y="226" text-anchor="end" font-size="11" fill="#94576D">2025-11-23 — 2026-11-28</text>
   </g>
 </svg>
